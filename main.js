@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 var divCalculadora = document.createElement("div");
 divCalculadora.setAttribute('id','calculadora');
-console.log(divCalculadora);
+// console.log(divCalculadora);
 
 	var divPantalla = document.createElement("div");
 	divPantalla.setAttribute('id','pantalla');
@@ -175,31 +175,30 @@ var operando2;
 var operacion;
 
 
-function init(){
+// function init(){
 
-console.log('init');
+// console.log('init');
 
-var uno = document.getElementById('uno');
-console.log(uno);
-var dos = document.getElementById('dos');
-var tres = document.getElementById('tres');
-var cuatro = document.getElementById('cuatro');
-var cinco = document.getElementById('cinco');
-var seis = document.getElementById('seis');
-var siete = document.getElementById('siete');
-var ocho = document.getElementById('ocho');
-var nueve = document.getElementById('nueve');
-var cero = document.getElementById('cero');
+// var uno = $('#uno');
+// // console.log(uno);
+// var dos = $('#dos');
+// var tres = $('#tres');
+// var cuatro = document.getElementById('cuatro');
+// var cinco = document.getElementById('cinco');
+// var seis = document.getElementById('seis');
+// var siete = document.getElementById('siete');
+// var ocho = document.getElementById('ocho');
+// var nueve = document.getElementById('nueve');
+// var cero = document.getElementById('cero');
 
-var suma = document.getElementById('suma');
-var resta = document.getElementById('resta');
-var dividir = document.getElementById('dividir');
-var multiplicar = document.getElementById('multiplicar');
-var borrar = document.getElementById('borrar');
-var igual = document.getElementById('igual');
+// var suma = document.getElementById('suma');
+// var resta = document.getElementById('resta');
+// var dividir = document.getElementById('dividir');
+// var multiplicar = document.getElementById('multiplicar');
+// var borrar = document.getElementById('borrar');
+// var igual = document.getElementById('igual');
 
 var pantallaResultado = document.getElementById('pantallaResultado');
-}
 
 
 
@@ -212,10 +211,58 @@ var pantallaResultado = document.getElementById('pantallaResultado');
 
 
 
-$('uno').on('click', function (e){
+
+$('#uno').on('click', function (e){
 pantallaResultado.value ="1";
+
+});
+
+$('#dos').on('click', function (e){
+pantallaResultado.value ="2";
+
+});
+
+$('#tres').on('click', function (e){
+pantallaResultado.value ="3";
+
+});
+
+$('#cuatro').on('click', function (e){
+pantallaResultado.value ="4";
+
+});
+
+$('#cinco').on('click', function (e){
+pantallaResultado.value ="5";
+
+});
+
+$('#seis').on('click', function (e){
+pantallaResultado.value ="6";
+
+});
+
+$('#siete').on('click', function (e){
+pantallaResultado.value ="7";
+
+});
+
+$('#ocho').on('click', function (e){
+pantallaResultado.value ="8";
 console.log('jhjgjhg');
 });
+
+$('#nueve').on('click', function (e){
+pantallaResultado.value ="9";
+
+});
+
+$('#cero').on('click', function (e){
+pantallaResultado.value ="0";
+
+});
+
+
 
 
 
