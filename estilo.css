@@ -1,0 +1,105 @@
+
+#calculadora{
+	width: 20%;
+	height: 550px;
+	padding: 30px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: auto;
+	background-color: #292F30;
+
+	border-radius: 10px;
+	display: block;
+	
+	
+	
+	
+}
+
+
+
+/*------------Pantalla----------------------------*/
+
+#pantalla{
+	width: 90%;
+	height: 30%;
+	margin: auto;
+}
+
+#pantallaResultado{
+	width: 100%;
+	height: 30%;
+	font-size: 50px;
+	color: #4E595D;
+	text-align: right;
+}
+
+#pantallaInput{
+	width: 100%;
+	height: 50%;
+	font-size: 50px;
+	color: #4E595D;
+	text-align: right;
+}
+
+
+
+input::-webkit-input-placeholder {
+  color: #4E595D;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+
+
+
+#botones{
+	width: 96%;
+	height: 22em;
+	margin: auto;
+	
+	margin-top: 15px;
+	display: inline-flex;
+}
+
+#contenedor1{
+width: 75%;
+height: 100%;
+margin-left: 24px;
+
+}
+
+#contenedor2{
+	width: 25%;
+	height: 100%;
+}
+
+
+
+
+.numeros{
+	width: 63px;
+	height: 82px;
+	margin: 3px;
+	background-color: #F4B943;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+#igual{
+	background-color: #F9DE4D;
+}
+
+
+.operaciones{
+	width: 63px;
+	height: 65px;
+	margin: 3px;
+	background-color: #FF7630;
+	font-size: 1.2em;
+	border-radius: 6px;
+}
+
+#borrar{
+	background-color: #ED6F43;
+}
