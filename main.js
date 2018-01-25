@@ -212,6 +212,10 @@ var pantallaResultado = document.getElementById('pantallaResultado');
 
 
 
+
+/* Codigo JQuery*/
+
+
 $('#uno').on('click', function (e){
 pantallaResultado.value ="1";
 
@@ -282,61 +286,94 @@ pantallaResultado.value ="0";
 // 	pantallaResultado.value = "1";
 // 	console.log('jhjgjhg');
 // }
-dos.onclick = function(e){
-	pantallaResultado.value = "2";
-}
-tres.onclick = function(e){
-	pantallaResultado.value = "3";
-}
-cuatro.onclick = function(e){
-	pantallaResultado.value = "4";
-}
-cinco.onclick = function(e){
-	pantallaResultado.value = "5";
-}
-seis.onclick = function(e){
-	pantallaResultado.value = "6";
-}
-siete.onclick = function(e){
-	pantallaResultado.value = "7";
-}
-ocho.onclick = function(e){
-	pantallaResultado.value = "8";
-}
-nueve.onclick = function(e){
-	pantallaResultado.value = "9";
-}
-cero.onclick = function(e){
-	pantallaResultado.value = "0";
-}
+// dos.onclick = function(e){
+// 	pantallaResultado.value = "2";
+// }
+// tres.onclick = function(e){
+// 	pantallaResultado.value = "3";
+// }
+// cuatro.onclick = function(e){
+// 	pantallaResultado.value = "4";
+// }
+// cinco.onclick = function(e){
+// 	pantallaResultado.value = "5";
+// }
+// seis.onclick = function(e){
+// 	pantallaResultado.value = "6";
+// }
+// siete.onclick = function(e){
+// 	pantallaResultado.value = "7";
+// }
+// ocho.onclick = function(e){
+// 	pantallaResultado.value = "8";
+// }
+// nueve.onclick = function(e){
+// 	pantallaResultado.value = "9";
+// }
+// cero.onclick = function(e){
+// 	pantallaResultado.value = "0";
+// }
 
 
-
-
-suma.onclick = function(e){
+$('#suma').on('click', function(e){
 	operando1 = pantallaResultado.value;
 	operacion="+";
 	limpiarPantalla();
-}
-resta.onclick = function(e){
+});
+
+$('#resta').on('click', function(e){
 	operando1 = pantallaResultado.value;
 	operacion="-";
 	limpiarPantalla();
-}
-dividir.onclick = function(e){
+});
+
+$('#dividir').on('click', function(e){
 	operando1 = pantallaResultado.value;
 	operacion="/";
 	limpiarPantalla();
-}
-multiplicar.onclick = function(e){
+});
+
+$('#multiplicar').on('click',function(e){
 	operando1 = pantallaResultado.value;
 	operacion="*";
 	limpiarPantalla();
-}
-igual.onclick = function(e){
+});
+
+$('#igual').on('click',function(e){
 	operando2 = pantallaResultado.value;
 	resolver();
-}
+});
+
+
+
+
+
+
+
+// suma.onclick = function(e){
+// 	operando1 = pantallaResultado.value;
+// 	operacion="+";
+// 	limpiarPantalla();
+// }
+// resta.onclick = function(e){
+// 	operando1 = pantallaResultado.value;
+// 	operacion="-";
+// 	limpiarPantalla();
+// }
+// dividir.onclick = function(e){
+// 	operando1 = pantallaResultado.value;
+// 	operacion="/";
+// 	limpiarPantalla();
+// }
+// multiplicar.onclick = function(e){
+// 	operando1 = pantallaResultado.value;
+// 	operacion="*";
+// 	limpiarPantalla();
+// }
+// igual.onclick = function(e){
+// 	operando2 = pantallaResultado.value;
+// 	resolver();
+// }
 
 
 
