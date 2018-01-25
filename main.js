@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+
+
 var divCalculadora = document.createElement("div");
 divCalculadora.setAttribute('id','calculadora');
 console.log(divCalculadora);
@@ -201,11 +205,36 @@ var pantallaResultado = document.getElementById('pantallaResultado');
 
 
 
-uno.onclick = function(e){
+
+
+
+
+
+
+
+$('uno').on('click', function (e){
+pantallaResultado.value ="1";
+console.log('jhjgjhg');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// uno.onclick = function(e){
 	
-	pantallaResultado.value = "1";
-	console.log('jhjgjhg');
-}
+// 	pantallaResultado.value = "1";
+// 	console.log('jhjgjhg');
+// }
 dos.onclick = function(e){
 	pantallaResultado.value = "2";
 }
@@ -306,3 +335,14 @@ function resolver(){
 	pantallaResultado.value=resultado;
 
 }
+
+
+
+
+
+
+
+
+
+
+});
