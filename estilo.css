@@ -28,7 +28,7 @@
 
 #pantallaResultado{
 	width: 100%;
-	height: 30%;
+	height: 80%;
 	font-size: 50px;
 	color: #4E595D;
 	text-align: right;
@@ -78,7 +78,7 @@ margin-left: 24px;
 
 
 .numeros{
-	width: 63px;
+	width: 28%;
 	height: 82px;
 	margin: 3px;
 	background-color: #F4B943;
@@ -92,7 +92,7 @@ margin-left: 24px;
 
 
 .operaciones{
-	width: 63px;
+	width: 100%;
 	height: 65px;
 	margin: 3px;
 	background-color: #FF7630;
