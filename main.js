@@ -321,6 +321,19 @@ $('#suma').on('click', function(e){
 	limpiarPantalla();
 });
 
+
+$('#suma').hover(function(){
+	$('#suma').css("background", "rgba(0,0,0,0)", "color", "#3a7999");
+}, function(){
+   
+	$('#suma').css("width", "100%");
+
+});
+
+
+
+
+
 $('#resta').on('click', function(e){
 	operando1 = pantallaResultado.value;
 	operacion="-";
